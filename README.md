@@ -4,6 +4,9 @@ release](https://img.shields.io/github/release/learninfun/apidocx.svg?label=curr
 # apidocx
 AI-Powered Knowledge Books: Generated from a Tree of Topics
 
+# Translation
+[繁體中文](https://github.com/learninfun/apidocx/blob/main/README_zh-TW.md)
+
 # Installing
 Download the release from [Github](https://github.com/learninfun/apidocx/releases/)
 
