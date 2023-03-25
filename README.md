@@ -59,7 +59,7 @@ questions:
 ```
 
 ## yaml config key
-- **apiProvider**: API Provicer, ex: ChatGPT only (Bard in the future)
+- **apiProvider**: API Provicer, ex: ChatGPT
 - **apiModal**: Select the modal of API, ex: gpt-3.5-turbo, gpt-4-32k-0314
 - **questions**: Question Array
   - **key**: Key for cache answer
