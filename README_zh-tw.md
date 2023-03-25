@@ -56,7 +56,7 @@ questions:
 ```
 
 ## yaml config key
-- **apiProvider**: API Provicer, ex: ChatGPT (預計提供Bard)
+- **apiProvider**: API Provicer, ex: ChatGPT
 - **apiModal**: 選擇API的模型, ex: gpt-3.5-turbo, gpt-4-32k-0314
 - **questions**: 問題清單
   - **key**: 快取答案時使用的key

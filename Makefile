@@ -1,5 +1,5 @@
 # Set variables for the build
-VERSION = 0.1.0
+VERSION = 0.1.0-alpha
 BINARY_NAME = apidocx
 SOURCE_DIR = cmd/$(BINARY_NAME)
 BUILD_DIR = build/$(VERSION)

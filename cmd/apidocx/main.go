@@ -379,7 +379,7 @@ QuestionLoop:
 		if io.FileExists(thisPathCache) { //try to get content from cache
 			answerInfo.Answer = io.FileToString(thisPathCache)
 		} else {
-			if config.ApiProvider != "ChatGPT" {
+			if config.ApiProvider != "OpenAI" {
 				panic("Only support ChatGPT")
 			}
 
