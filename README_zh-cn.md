@@ -37,7 +37,7 @@ apidocx -t epub ^
 # config.yaml
 每个知识点想要问的问题
 ```yaml
-apiProvider: ChatGPT
+apiProvider: OpenAI
 apiModal: gpt-3.5-turbo-0301
 initRole: 假设你是机器学习专家，回答我问题
 questions:
@@ -56,7 +56,7 @@ questions:
 ```
 
 ## yaml config key
-- **apiProvider**: API Provicer, ex: ChatGPT
+- **apiProvider**: API Provicer, ex: OpenAI
 - **apiModal**: 选择API的模型, ex: gpt-3.5-turbo, gpt-4-32k-0314
 - **questions**: 问题清单
   - **key**: 快取答案时使用的key
