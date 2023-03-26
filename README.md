@@ -1,8 +1,7 @@
 [![github
 release](https://img.shields.io/github/release/learninfun/aidocx.svg?label=current+release)](https://github.com/learninfun/aidocx/releases)
 
-# aidocx
-AI-Powered Knowledge Books: Generated from a Tree of Topics
+# aidocx: AI-Powered Knowledge Books: Generated from a Tree of Topics
 
 ![alt aidocx flow](https://github.com/learninfun/aidocx/blob/main/static/images/aidocx_flow_en.png?raw=true)
 

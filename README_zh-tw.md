@@ -1,8 +1,7 @@
 [![github
 release](https://img.shields.io/github/release/learninfun/aidocx.svg?label=current+release)](https://github.com/learninfun/aidocx/releases)
 
-# aidocx
-知識擷取小幫手
+# aidocx: 知識擷取小幫手
 
 ![alt aidocx flow](https://github.com/learninfun/aidocx/blob/main/static/images/aidocx_flow_zh-tw.png?raw=true)
 
