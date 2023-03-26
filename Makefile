@@ -49,4 +49,4 @@ clean:
 	rm -rf $(ARCHIVE_DIR)/*
 
 #RUN:
-#	go build -o apidocx.exe ./cmd/apidocx/main.go
+#	go build -o aidocx.exe ./cmd/aidocx/main.go
