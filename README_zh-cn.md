@@ -14,10 +14,10 @@ release](https://img.shields.io/github/release/learninfun/apidocx.svg?label=curr
 # Basic usage
 这个指令会将当前文件夹中的 input.md 和 config.yaml 档案转换成一个名为 output.epub 的档案
 ```bash
-apidocx -t epub ^
-        -o output.epub ^
-        -apikey-openai "paste-your-api-key" ^
-        input.md
+aidocx -t epub ^
+       -o output.epub ^
+       -apikey-openai "paste-your-api-key" ^
+       input.md
 ```
 
 # input.md

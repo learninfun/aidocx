@@ -17,10 +17,10 @@ Obtain an API key from OpenAI (Bard still does not provide a web API interface.)
 # Basic usage
 This command will convert the "**input.md**" and "**config.yaml**" files in the current folder into an "output.epub" file.
 ```bash
-apidocx -t epub ^
-        -o output.epub ^
-        -apikey-openai "paste-your-api-key" ^
-        input.md
+aidocx -t epub ^
+       -o output.epub ^
+       -apikey-openai "paste-your-api-key" ^
+       input.md
 ```
 
 # input.md
