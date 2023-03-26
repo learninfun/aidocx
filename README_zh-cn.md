@@ -6,14 +6,14 @@ release](https://img.shields.io/github/release/learninfun/aidocx.svg?label=curre
 
 ![alt aidocx flow](https://github.com/learninfun/aidocx/blob/main/static/images/aidocx_flow_zh-cn.png?raw=true)
 
-# 安装
+## 安装
 从[Github](https://github.com/learninfun/aidocx/releases/)下载程序
 
-# 使用前提
+## 使用前提
 经由使用各家厂商所提供的API接口呼叫AI，因此在使用前需要先申请相对应的API Key。
 以OpenAI的ChatGPT为例，可使用此网址进行申请: [申请网址](https://openai.com/blog/openai-api)
 
-# Basic usage
+# 基本用法: epub
 这个指令会将当前文件夹中的 input.md 和 config.yaml 档案转换成一个名为 output.epub 的档案
 ```bash
 aidocx -t epub ^
@@ -22,8 +22,7 @@ aidocx -t epub ^
        input.md
 ```
 
-# input.md
-准备学习的树状知识点
+# input.md: 准备学习的树状知识点
 ```markdown
 - 机器学习
   - 监督式学习
@@ -36,8 +35,7 @@ aidocx -t epub ^
     - 分群
 ```
 
-# config.yaml
-每个知识点想要问的问题
+# config.yaml: 每个知识点想要问的问题
 ```yaml
 apiProvider: OpenAI
 apiModal: gpt-3.5-turbo-0301

@@ -6,14 +6,14 @@ release](https://img.shields.io/github/release/learninfun/aidocx.svg?label=curre
 
 ![alt aidocx flow](https://github.com/learninfun/aidocx/blob/main/static/images/aidocx_flow_zh-tw.png?raw=true)
 
-# 安裝
+## 安裝
 從[Github](https://github.com/learninfun/aidocx/releases/)下載程式
 
-# 使用前提
+## 使用前提
 經由使用各家廠商所提供的API介面呼叫AI，因此在使用前需要先申請相對應的API Key。
 以OpenAI的ChatGPT為例，可使用此網址進行申請: [申請網址](https://openai.com/blog/openai-api)
 
-# Basic usage
+## 基本用法: epub
 這個指令會將當前資料夾中的 input.md 和 config.yaml 檔案轉換成一個名為 output.epub 的檔案
 ```bash
 aidocx -t epub ^
@@ -22,8 +22,7 @@ aidocx -t epub ^
        input.md
 ```
 
-# input.md
-準備學習的樹狀知識點
+## input.md: 準備學習的樹狀知識點
 ```markdown
 - 機器學習
   - 監督式學習
@@ -36,8 +35,7 @@ aidocx -t epub ^
     - 分群
 ```
 
-# config.yaml
-每個知識點想要問的問題
+## config.yaml: 每個知識點想要問的問題
 ```yaml
 apiProvider: OpenAI
 apiModal: gpt-3.5-turbo-0301
@@ -57,7 +55,7 @@ questions:
     template: 以中文給我5題{{ .keyword}}的中等難度問題，並在後面列出答案
 ```
 
-## yaml config key
+## config.yaml 设定参数
 - **apiProvider**: API Provicer, ex: OpenAI
 - **apiModal**: 選擇API的模型, ex: gpt-3.5-turbo, gpt-4-32k-0314
 - **questions**: 問題清單
