@@ -1,4 +1,4 @@
-module github.com/learninfun/apidocx
+module github.com/learninfun/aidocx
 
 go 1.20
 

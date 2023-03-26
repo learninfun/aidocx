@@ -17,8 +17,8 @@ import (
 
 	"github.com/bmaupin/go-epub"
 
-	"github.com/learninfun/apidocx/internal/convert"
-	"github.com/learninfun/apidocx/internal/io"
+	"github.com/learninfun/aidocx/internal/convert"
+	"github.com/learninfun/aidocx/internal/io"
 
 	openai "github.com/sashabaranov/go-openai"
 )

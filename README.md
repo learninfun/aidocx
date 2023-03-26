@@ -1,15 +1,17 @@
 [![github
-release](https://img.shields.io/github/release/learninfun/apidocx.svg?label=current+release)](https://github.com/learninfun/apidocx/releases)
+release](https://img.shields.io/github/release/learninfun/aidocx.svg?label=current+release)](https://github.com/learninfun/aidocx/releases)
 
-# apidocx
+# aidocx
 AI-Powered Knowledge Books: Generated from a Tree of Topics
 
+![alt aidocx flow](https://github.com/learninfun/aidocx/blob/main/static/images/aidocx_flow_en.png?raw=true)
+
 # Translation
-- [簡體中文](https://github.com/learninfun/apidocx/blob/main/README_zh-cn.md)
-- [繁體中文](https://github.com/learninfun/apidocx/blob/main/README_zh-tw.md)
+- [簡體中文](https://github.com/learninfun/aidocx/blob/main/README_zh-cn.md)
+- [繁體中文](https://github.com/learninfun/aidocx/blob/main/README_zh-tw.md)
 
 # Installing
-Download the release from [Github](https://github.com/learninfun/apidocx/releases/)
+Download the release from [Github](https://github.com/learninfun/aidocx/releases/)
 
 # Prerequisites
 Obtain an API key from OpenAI (Bard still does not provide a web API interface.)

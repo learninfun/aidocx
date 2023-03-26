@@ -1,11 +1,13 @@
 [![github
-release](https://img.shields.io/github/release/learninfun/apidocx.svg?label=current+release)](https://github.com/learninfun/apidocx/releases)
+release](https://img.shields.io/github/release/learninfun/aidocx.svg?label=current+release)](https://github.com/learninfun/aidocx/releases)
 
-# apidocx
+# aidocx
 知识撷取小帮手
 
+![alt aidocx flow](https://github.com/learninfun/aidocx/blob/main/static/images/aidocx_flow_zh-cn.png?raw=true)
+
 # 安装
-从[Github](https://github.com/learninfun/apidocx/releases/)下载程序
+从[Github](https://github.com/learninfun/aidocx/releases/)下载程序
 
 # 使用前提
 经由使用各家厂商所提供的API接口呼叫AI，因此在使用前需要先申请相对应的API Key。
